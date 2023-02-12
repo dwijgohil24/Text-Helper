@@ -25,11 +25,10 @@ export default function TextForm(props) {
  
 //let emailFetched="";
   const extractEmail = () =>{
-    
+
     let currText = text.split(" ");
     for (let index = 0; index < currText.length; index++) {
       for (let j = 1; j < currText[index].length; j++) {
-
         if(currText[index][j] === "@"){
           emailFetched(currText[index]);
           console.log("mil gaya");
