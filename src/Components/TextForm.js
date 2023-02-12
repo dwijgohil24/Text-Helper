@@ -37,7 +37,7 @@ export default function TextForm(props) {
         //console.log(currText[index]);
       }
     }
-    //return emailFetched;
+    
   }
   //handling the input text.asasa
   const handleOnChange = (event) =>{
