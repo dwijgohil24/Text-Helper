@@ -25,8 +25,8 @@ export default function TextForm(props) {
  
 //let emailFetched="";
   const extractEmail = () =>{
-    let currText = text.split(" ");
     
+    let currText = text.split(" ");
     for (let index = 0; index < currText.length; index++) {
       for (let j = 1; j < currText[index].length; j++) {
 
