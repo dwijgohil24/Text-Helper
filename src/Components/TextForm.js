@@ -30,7 +30,7 @@ export default function TextForm(props) {
     for (let index = 0; index < currText.length; index++) {
       for (let j = 1; j < currText[index].length; j++) {
 
-        if(currText[index][j] == "@"){
+        if(currText[index][j] === "@"){
           emailFetched(currText[index]);
           console.log("mil gaya");
           console.log(currText[index]);
@@ -40,7 +40,7 @@ export default function TextForm(props) {
     }
     //return emailFetched;
   }
-  //handling the input text.
+  //handling the input text.asasa
   const handleOnChange = (event) =>{
     setText(event.target.value)
   }
