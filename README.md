@@ -1,4 +1,4 @@
-#About The Project 
+# About The Project 
 
 Text - Helper is a website that provides various text - utility function such as :
 converting your given text to upperCase, lowerCase.
