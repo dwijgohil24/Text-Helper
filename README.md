@@ -1,3 +1,12 @@
+# About The Project 
+
+Text - Helper is a website that provides various text - utility function such as :
+converting your given text to upperCase, lowerCase.
+Fetching email from long text.
+It also has dark-mode.
+
+In Progress ( will add more features over here once they are implemented and pushed ! 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
