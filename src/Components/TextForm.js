@@ -51,12 +51,14 @@ export default function TextForm(props) {
 
   return (
     <>
-    <div className="container">
-      <div className="mb-3">
-      <h2>{props.heading}</h2>
+    <div className="container" style={{color : props.mode === 'light'? 'black' : 'white'}}>
+      <div className="mb-3" >
+      <h2>{props.heading}</h2> 
         <textarea   
           className="form-control"
           value={text}
+          style={{backgroundColor: props.mode ==='light'? 'white':'grey',
+        color: props.mode === 'light' ? 'black' : 'white'}}
           onChange={handleOnChange}
           id="myBox"
           rows="8"
@@ -72,12 +74,12 @@ export default function TextForm(props) {
         Fetch Email-id.
       </button>
       </div>
-      <div className="container my-3">
+      <div className="container my-3" style={{color : props.mode === 'light'? 'black' : 'white'}}>
         <h4>Your Text Summary</h4>
         <h6>Your Text contains {text.split(" ").length} and {text.length} characters.</h6>
         <h6>Approx time to read this text = {0.008 * text.split(" ").length} minutes. </h6>
         <h4>Preview :</h4>
-        <p>{text}</p>
+        <p>{text.length > 0 ? text : "Enter Something To Preview !"}</p>
         
         
         <h4>Email Fetched Status : {email}</h4>
