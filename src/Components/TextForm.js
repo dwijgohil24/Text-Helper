@@ -9,6 +9,13 @@ export default function TextForm(props) {
     //console.log("value is now set to upper case, enjoy !")
     let newText = text.toUpperCase();
     setText(newText);
+    if(text.length > 0){
+      props.showAlert("Text Converted to Upper-Case","success");
+    }
+    else{
+      props.showAlert("There Is No Text For Conversion", "danger");
+    }
+    
   }
 
   //converts the text to lower-case.
@@ -17,6 +24,12 @@ export default function TextForm(props) {
     //console.log("value is now set to upper case, enjoy !")
     let newText = text.toLowerCase();
     setText(newText);
+    if(text.length > 0){
+      props.showAlert("Text Converted to Lower-Case","success");
+    }
+    else{
+      props.showAlert("There Is No Text For Conversion", "danger");
+    }    
   }
 
   /*Extra Feature - Add On*/
