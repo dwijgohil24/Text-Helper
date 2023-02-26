@@ -3,7 +3,6 @@ import Navbar from './Navbar';
 import TextForm from './TextForm';
 import Alert from './Alert';
 import {useState} from 'react';
-//import { Link } from "react-router-dom";
 
 function Home() {
     const [mode, setMode] = useState("light"); // whether dark mode is enabled or not.
