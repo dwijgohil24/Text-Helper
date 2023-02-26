@@ -10,6 +10,12 @@ converting your given text to upperCase, lowerCase.
 
 In Progress ( will add more features over here once they are implemented and pushed ! )
 
+![Screenshot (127)](https://user-images.githubusercontent.com/80956416/221431758-899514cf-6036-4411-9620-a9494af539ce.png) 
+
+![Screenshot (130)](https://user-images.githubusercontent.com/80956416/221431764-17dee9e0-ef24-42fd-91da-7edf1523d50f.png)
+
+![Screenshot (131)](https://user-images.githubusercontent.com/80956416/221431780-1a0f80be-1ab5-4d44-9d06-ed4edeb9787c.png)
+
 # Steps To Run This React Project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
