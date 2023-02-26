@@ -2,12 +2,15 @@
 
 Text - Helper is a website that provides various text - utility function such as :
 converting your given text to upperCase, lowerCase.
-Fetching email from long text.
-It also has dark-mode.
 
-In Progress ( will add more features over here once they are implemented and pushed ! 
+1. Fetching email from long text.
+2. You can clear the text or copy it to your clipboard.
+3. Grammarly Spell check and grammatical error checking facility added.
+4. Supports Hacker Mode ( Dark Mode )
 
-# Getting Started with Create React App
+In Progress ( will add more features over here once they are implemented and pushed ! )
+
+# Steps To Run This React Project.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
